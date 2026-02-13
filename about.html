@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Lumineo.ai</title>
+    <meta name="description" content="Meet the team behind Lumineo.ai — engineers, designers, and strategists creating AI solutions that matter.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">
+                <svg class="nav__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"/>
+                    <circle cx="20" cy="20" r="8" fill="currentColor" opacity="0.6"/>
+                    <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                </svg>
+                <span>lumineo<span class="accent">.ai</span></span>
+            </a>
+            <div class="nav__links" id="navLinks">
+                <a href="index.html" class="nav__link">Home</a>
+                <a href="services.html" class="nav__link">Services</a>
+                <a href="work.html" class="nav__link">Work</a>
+                <a href="about.html" class="nav__link active">About</a>
+                <a href="index.html#contact" class="nav__link">Contact</a>
+            </div>
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero__bg">
+            <div class="hero__grid-lines"></div>
+            <div class="hero__gradient-orb hero__gradient-orb--1"></div>
+        </div>
+        <div class="container">
+            <span class="section-label reveal-up">About Us</span>
+            <h1 class="page-hero__title reveal-up" style="--delay: 0.1s">Creating in ways you<br><em class="text-gradient">never knew</em> you wanted</h1>
+            <p class="page-hero__subtitle reveal-up" style="--delay: 0.2s">
+                We believe the true integration of AI and design pushes brands to get bold and cultivate rich, intelligent experiences that leave a lasting impression.
+            </p>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section about-story">
+        <div class="container">
+            <div class="about-story__grid">
+                <div class="about-story__content">
+                    <span class="section-label reveal-up">Our Story</span>
+                    <h2 class="about-story__heading reveal-up" style="--delay: 0.1s">Built by builders</h2>
+                    <p class="about-story__text reveal-up" style="--delay: 0.2s">
+                        Lumineo was born from a simple observation: the most powerful AI in the world is useless if nobody can use it. We set out to bridge the gap between cutting-edge intelligence and human experience.
+                    </p>
+                    <p class="about-story__text reveal-up" style="--delay: 0.25s">
+                        Our team combines deep technical expertise with creative design thinking. We've shipped AI products for startups and Fortune 500 companies alike — always with the same philosophy: technology should illuminate, not complicate.
+                    </p>
+                    <p class="about-story__text reveal-up" style="--delay: 0.3s">
+                        From our distributed team across the country, we bring together engineers, designers, data scientists, and strategists who share one belief: the best AI solutions are the ones people actually want to use.
+                    </p>
+                </div>
+                <div class="about-story__visual reveal-up" style="--delay: 0.2s">
+                    <div class="about-story__image-placeholder">
+                        <div class="about-story__abstract">
+                            <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="200" cy="200" r="150" stroke="rgba(110, 200, 255, 0.08)" stroke-width="0.5"/>
+                                <circle cx="200" cy="200" r="120" stroke="rgba(110, 200, 255, 0.1)" stroke-width="0.5"/>
+                                <circle cx="200" cy="200" r="90" stroke="rgba(110, 200, 255, 0.12)" stroke-width="0.5"/>
+                                <circle cx="200" cy="200" r="60" stroke="rgba(110, 200, 255, 0.15)" stroke-width="0.5"/>
+                                <circle cx="200" cy="200" r="30" stroke="rgba(110, 200, 255, 0.2)" stroke-width="0.5"/>
+                                <circle cx="200" cy="200" r="10" fill="rgba(110, 200, 255, 0.5)"/>
+                                <!-- Orbital dots -->
+                                <circle cx="200" cy="50" r="5" fill="rgba(110, 200, 255, 0.4)">
+                                    <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="20s" repeatCount="indefinite"/>
+                                </circle>
+                                <circle cx="80" cy="200" r="4" fill="rgba(167, 139, 250, 0.4)">
+                                    <animateTransform attributeName="transform" type="rotate" from="120 200 200" to="480 200 200" dur="25s" repeatCount="indefinite"/>
+                                </circle>
+                                <circle cx="320" cy="200" r="3" fill="rgba(52, 211, 153, 0.4)">
+                                    <animateTransform attributeName="transform" type="rotate" from="240 200 200" to="600 200 200" dur="30s" repeatCount="indefinite"/>
+                                </circle>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="section about-values">
+        <div class="container">
+            <div class="section-header" style="text-align: center;">
+                <span class="section-label reveal-up">Our Values</span>
+                <h2 class="section-title reveal-up" style="--delay: 0.1s">What drives us forward</h2>
+            </div>
+            <div class="values-grid">
+                <div class="value-card reveal-up" style="--delay: 0.1s">
+                    <div class="value-card__number">01</div>
+                    <h3 class="value-card__title">Clarity Over Complexity</h3>
+                    <p class="value-card__desc">We believe the best technology is invisible. Our solutions simplify, never complicate. If a user needs a manual, we've failed.</p>
+                </div>
+                <div class="value-card reveal-up" style="--delay: 0.2s">
+                    <div class="value-card__number">02</div>
+                    <h3 class="value-card__title">Impact Over Hype</h3>
+                    <p class="value-card__desc">We measure success by results, not buzzwords. Every feature we ship, every model we train — it all ties back to measurable business outcomes.</p>
+                </div>
+                <div class="value-card reveal-up" style="--delay: 0.3s">
+                    <div class="value-card__number">03</div>
+                    <h3 class="value-card__title">Craft Over Speed</h3>
+                    <p class="value-card__desc">We move fast, but never at the expense of quality. The details matter — from pixel-perfect interfaces to rigorously tested models.</p>
+                </div>
+                <div class="value-card reveal-up" style="--delay: 0.4s">
+                    <div class="value-card__number">04</div>
+                    <h3 class="value-card__title">Honesty Over Everything</h3>
+                    <p class="value-card__desc">We tell you what you need to hear, not what you want to hear. If AI isn't the right solution, we'll say so. Trust is everything.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section about-team">
+        <div class="container">
+            <div class="section-header" style="text-align: center;">
+                <span class="section-label reveal-up">The Team</span>
+                <h2 class="section-title reveal-up" style="--delay: 0.1s">The people behind the pixels</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-card reveal-up" style="--delay: 0.1s">
+                    <div class="team-card__avatar" style="background: linear-gradient(135deg, #1a1a2e, #0f3460);">
+                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="30" r="14" stroke="rgba(110, 200, 255, 0.4)" stroke-width="1"/>
+                            <path d="M15 70c0-13.8 11.2-25 25-25s25 11.2 25 25" stroke="rgba(110, 200, 255, 0.4)" stroke-width="1"/>
+                        </svg>
+                    </div>
+                    <h3 class="team-card__name">Alex Rivera</h3>
+                    <span class="team-card__role">Founder & CEO</span>
+                    <p class="team-card__bio">Former ML lead at a major tech company, Alex brings 15+ years of experience shipping AI products at scale. Obsessed with making AI accessible to everyone.</p>
+                </div>
+                <div class="team-card reveal-up" style="--delay: 0.2s">
+                    <div class="team-card__avatar" style="background: linear-gradient(135deg, #1a0a2e, #5b21b6);">
+                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="30" r="14" stroke="rgba(167, 139, 250, 0.4)" stroke-width="1"/>
+                            <path d="M15 70c0-13.8 11.2-25 25-25s25 11.2 25 25" stroke="rgba(167, 139, 250, 0.4)" stroke-width="1"/>
+                        </svg>
+                    </div>
+                    <h3 class="team-card__name">Maya Chen</h3>
+                    <span class="team-card__role">Head of Design</span>
+                    <p class="team-card__bio">A detail-obsessed designer with a passion for typography and human-centered AI interfaces. Previously led design at two successful AI startups.</p>
+                </div>
+                <div class="team-card reveal-up" style="--delay: 0.3s">
+                    <div class="team-card__avatar" style="background: linear-gradient(135deg, #0a2e1a, #059669);">
+                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="30" r="14" stroke="rgba(52, 211, 153, 0.4)" stroke-width="1"/>
+                            <path d="M15 70c0-13.8 11.2-25 25-25s25 11.2 25 25" stroke="rgba(52, 211, 153, 0.4)" stroke-width="1"/>
+                        </svg>
+                    </div>
+                    <h3 class="team-card__name">Jordan Park</h3>
+                    <span class="team-card__role">CTO</span>
+                    <p class="team-card__bio">Full-stack engineer turned ML architect. Jordan builds the infrastructure that powers our AI solutions — from cloud architecture to production ML pipelines.</p>
+                </div>
+                <div class="team-card reveal-up" style="--delay: 0.4s">
+                    <div class="team-card__avatar" style="background: linear-gradient(135deg, #2e1a0a, #d97706);">
+                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="30" r="14" stroke="rgba(251, 191, 36, 0.4)" stroke-width="1"/>
+                            <path d="M15 70c0-13.8 11.2-25 25-25s25 11.2 25 25" stroke="rgba(251, 191, 36, 0.4)" stroke-width="1"/>
+                        </svg>
+                    </div>
+                    <h3 class="team-card__name">Sam Torres</h3>
+                    <span class="team-card__role">Head of Strategy</span>
+                    <p class="team-card__bio">With 20+ years in digital strategy, Sam ensures every project starts with the right question. Expert at turning complex AI capabilities into business value.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Banner -->
+    <section class="section stats-banner">
+        <div class="container">
+            <div class="stats-banner__grid">
+                <div class="stats-banner__item reveal-up" style="--delay: 0.1s">
+                    <span class="stats-banner__number" data-count="150">0</span><span class="stats-banner__suffix">+</span>
+                    <span class="stats-banner__label">Projects Delivered</span>
+                </div>
+                <div class="stats-banner__item reveal-up" style="--delay: 0.2s">
+                    <span class="stats-banner__number" data-count="50">0</span><span class="stats-banner__suffix">+</span>
+                    <span class="stats-banner__label">Enterprise Clients</span>
+                </div>
+                <div class="stats-banner__item reveal-up" style="--delay: 0.3s">
+                    <span class="stats-banner__number" data-count="12">0</span><span class="stats-banner__suffix">+</span>
+                    <span class="stats-banner__label">Years of Innovation</span>
+                </div>
+                <div class="stats-banner__item reveal-up" style="--delay: 0.4s">
+                    <span class="stats-banner__number" data-count="25">0</span><span class="stats-banner__suffix">+</span>
+                    <span class="stats-banner__label">Team Members</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-section__content reveal-up">
+                <h2 class="cta-section__heading">Want to join our team or<br><span class="text-gradient">start a project?</span></h2>
+                <p class="cta-section__text">We're always looking for talented people and exciting challenges.</p>
+                <a href="index.html#contact" class="btn btn--primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="index.html" class="nav__logo">
+                        <svg class="nav__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="20" cy="20" r="8" fill="currentColor" opacity="0.6"/>
+                            <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                        </svg>
+                        <span>lumineo<span class="accent">.ai</span></span>
+                    </a>
+                    <p class="footer__tagline">Intelligent solutions for a brighter future.</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__col">
+                        <h4 class="footer__col-title">Company</h4>
+                        <a href="about.html">About</a>
+                        <a href="work.html">Work</a>
+                        <a href="services.html">Services</a>
+                        <a href="index.html#contact">Contact</a>
+                    </div>
+                    <div class="footer__col">
+                        <h4 class="footer__col-title">Services</h4>
+                        <a href="services.html">AI Strategy</a>
+                        <a href="services.html">ML Development</a>
+                        <a href="services.html">Product Design</a>
+                        <a href="services.html">Data Engineering</a>
+                    </div>
+                    <div class="footer__col">
+                        <h4 class="footer__col-title">Connect</h4>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter / X</a>
+                        <a href="#">GitHub</a>
+                        <a href="mailto:hello@lumineo.ai">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Lumineo.ai. All rights reserved.</p>
+                <div class="footer__legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Counter animation for about page stats
+        document.addEventListener('DOMContentLoaded', () => {
+            const statNumbers = document.querySelectorAll('.stats-banner__number[data-count]');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const el = entry.target;
+                        const target = parseInt(el.dataset.count);
+                        const duration = 2000;
+                        const start = performance.now();
+                        function update(now) {
+                            const elapsed = now - start;
+                            const progress = Math.min(elapsed / duration, 1);
+                            const eased = 1 - Math.pow(1 - progress, 3);
+                            el.textContent = Math.round(eased * target);
+                            if (progress < 1) requestAnimationFrame(update);
+                        }
+                        requestAnimationFrame(update);
+                        observer.unobserve(el);
+                    }
+                });
+            }, { threshold: 0.5 });
+            statNumbers.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
